@@ -1,0 +1,380 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<sim-project version="7.7" multi-file="no">
+  <meta>
+    <name>Project</name>
+    <authors> </authors>
+    <description />
+  </meta>
+  <counters models="1">
+    <entity-names>
+      <counter>
+        <item-type stereotype="" type="UmlClass" />
+        <value>8</value>
+      </counter>
+    </entity-names>
+    <entity-ids>
+      <counter>
+        <item-type stereotype="" type="UmlClass" />
+        <value>9</value>
+      </counter>
+      <counter>
+        <item-type stereotype="" type="UmlGeneralization" />
+        <value>7</value>
+      </counter>
+      <counter>
+        <item-type stereotype="" type="UmlDependency" />
+        <value>3</value>
+      </counter>
+      <counter>
+        <item-type stereotype="" type="AbstractElementGroup" />
+        <value>44</value>
+      </counter>
+    </entity-ids>
+    <diagrams>
+      <counter>
+        <type>SoftwareIdeasModeler.Core.Diagrams.UmlDiagrams.UmlClassDiagram</type>
+        <value>1</value>
+      </counter>
+    </diagrams>
+    <fields>
+      <counter>
+        <type>SoftwareIdeasModeler.Core.DiagramItems.Fields.AttributeField</type>
+        <value>9</value>
+      </counter>
+      <counter>
+        <type>SoftwareIdeasModeler.Core.DiagramItems.Fields.OperationField</type>
+        <value>13</value>
+      </counter>
+    </fields>
+  </counters>
+  <management>
+    <persons>
+      <person id="P6350c4dda17f47a0b6d2521c852b1d1e">
+        <first-name />
+        <last-name />
+        <role />
+        <e-mail />
+        <phone-number />
+        <description />
+        <color>#00000000</color>
+      </person>
+    </persons>
+    <tasks />
+    <requirements />
+    <issues />
+    <to-dos />
+  </management>
+  <glossary />
+  <types>
+    <type-sets>
+      <type-set file="UmlTypes.xml" />
+    </type-sets>
+    <custom-types>
+      <type id="base(name, driverNumber, grade)" tid="" name="base(name, driverNumber, grade)" description="" nullable="false" />
+      <type id="base(name, driverNumber)" tid="" name="base(name, driverNumber)" description="" nullable="false" />
+    </custom-types>
+  </types>
+  <filters />
+  <items />
+  <models>
+    <model id="p135982681213151790" name="Model 1" type="model" namespace="" order-index="1">
+      <meta>
+        <authors>
+          <author> </author>
+        </authors>
+        <description />
+        <creation-date>11/06/2014 18:06:57</creation-date>
+        <change-date>01/01/0001 00:00:00</change-date>
+        <revision-count>0</revision-count>
+        <version />
+      </meta>
+      <abstract-items />
+      <sub-models />
+      <diagram type="uml-class" id="p841114519130710322" name="ClassDiagram1" order-index="1" show-id="false" show-name="true" show-parent-name="false" show-stereotypes="true" show-tagged-values="false" show-template-parameters="true" show-fields="true" show-empty-compartments="true" show-attributes="true" show-attribute-visibility="true" show-operations="true" show-operation-parameters="true" show-operation-visibility="true" show-nullability="true" show-sequence-number="false" show-extension-points="true" show-relationship-texts="true" auto-routed-paths="false">
+        <style>
+          <background-color index="1" color="#FFFFFFFF" />
+          <background-color index="2" color="#FFFFFFFF" />
+          <background-type type="solid" />
+        </style>
+        <meta>
+          <authors>
+            <author> </author>
+          </authors>
+          <description />
+          <creation-date>11/06/2014 18:06:57</creation-date>
+          <change-date>11/06/2014 18:15:26</change-date>
+          <revision-count>0</revision-count>
+          <version />
+        </meta>
+        <abstract-items>
+          <item id="di256051449958277367" cid="C001" type="class" name="&lt;&lt;Driver&gt;&gt;" style-class="default" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creator="P6350c4dda17f47a0b6d2521c852b1d1e" creation-date="11/06/2014 18:07:04">
+            <stereotypes />
+            <associated-diagrams />
+            <owned-items />
+            <style class="default" />
+            <attributes>
+              <attribute id="a440c92e92ddf4aaa9915b24d8ca39deb109" cid="AT001" name="name" type="String" type-id="Uml.String" visibility="private" abstract="false" virtual="false" static="false" />
+              <attribute id="a0667aaa4457744b69ceb049c609ed7fe141" cid="AT002" name="driverNumber" type="Integer" type-id="Uml.Integer" visibility="private" abstract="false" virtual="false" static="false" />
+            </attributes>
+            <operations>
+              <operation id="ob787fe764b474991900466c5a9d6eb3827" cid="OP001" name="ToString" type="String" type-id="Uml.String" visibility="public" abstract="false" virtual="false" static="false">
+                <source-codes />
+              </operation>
+              <operation id="o22bbbf1821584aa0b61451b2929931ae981" cid="OP007" name="Driver" type="" type-id="" visibility="public" abstract="false" virtual="false" static="false">
+                <parameters>
+                  <parameter id="" name="String name" type="" type-id="" />
+                  <parameter id="" name="int driverNumber" type="" type-id="" />
+                </parameters>
+                <source-codes />
+              </operation>
+              <operation id="o32a75d71709847bcb675f4c97f7d24a5325" cid="OP008" name="UpdateTime" type="" type-id="" visibility="public" abstract="false" virtual="false" static="false">
+                <parameters>
+                  <parameter id="" name="TimeSpan time" type="" type-id="" />
+                </parameters>
+                <source-codes />
+              </operation>
+            </operations>
+            <template-parameters>
+              <source-codes />
+            </template-parameters>
+          </item>
+          <item id="di823324580566385817" cid="C002" type="class" name="Class2" style-class="default" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creator="P6350c4dda17f47a0b6d2521c852b1d1e" creation-date="11/06/2014 18:07:16">
+            <stereotypes />
+            <associated-diagrams />
+            <owned-items />
+            <style class="default" />
+            <attributes />
+            <operations />
+            <template-parameters>
+              <source-codes />
+            </template-parameters>
+          </item>
+          <item id="di140152197344242320" cid="GNR001" type="generalization" name="" style-class="default" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creator="P6350c4dda17f47a0b6d2521c852b1d1e" creation-date="11/06/2014 18:07:16">
+            <stereotypes />
+            <associated-diagrams />
+            <owned-items />
+            <style class="default" />
+          </item>
+          <item id="di547061449727485699" cid="C003" type="class" name="Class3" style-class="default" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creator="P6350c4dda17f47a0b6d2521c852b1d1e" creation-date="11/06/2014 18:07:21">
+            <stereotypes />
+            <associated-diagrams />
+            <owned-items />
+            <style class="default" />
+            <attributes />
+            <operations />
+            <template-parameters>
+              <source-codes />
+            </template-parameters>
+          </item>
+          <item id="di862359007825084486" cid="GNR002" type="generalization" name="" style-class="default" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creator="P6350c4dda17f47a0b6d2521c852b1d1e" creation-date="11/06/2014 18:07:21">
+            <stereotypes />
+            <associated-diagrams />
+            <owned-items />
+            <style class="default" />
+          </item>
+          <item id="di361170107283958688" cid="C004" type="class" name="Class4" style-class="default" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creator="P6350c4dda17f47a0b6d2521c852b1d1e" creation-date="11/06/2014 18:07:25">
+            <stereotypes />
+            <associated-diagrams />
+            <owned-items />
+            <style class="default" />
+            <attributes />
+            <operations />
+            <template-parameters>
+              <source-codes />
+            </template-parameters>
+          </item>
+          <item id="di484457318758637858" cid="GNR003" type="generalization" name="" style-class="default" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creator="P6350c4dda17f47a0b6d2521c852b1d1e" creation-date="11/06/2014 18:07:25">
+            <stereotypes />
+            <associated-diagrams />
+            <owned-items />
+            <style class="default" />
+          </item>
+          <item id="di938220280809403962" cid="C005" type="class" name="Professional" style-class="default" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creator="P6350c4dda17f47a0b6d2521c852b1d1e" creation-date="11/06/2014 18:09:07">
+            <stereotypes />
+            <associated-diagrams />
+            <owned-items />
+            <style class="default" />
+            <attributes>
+              <attribute id="a75c701f12c9f4bb49d4d3c04bf055e16933" cid="AT003" name="grade" type="Integer" type-id="Uml.Integer" visibility="private" abstract="false" virtual="false" static="false" />
+              <attribute id="a3f899208a26b40d59d374bb1d50f51d0622" cid="AT004" name="miles" type="Integer" type-id="Uml.Integer" visibility="private" abstract="false" virtual="false" static="false" />
+            </attributes>
+            <operations>
+              <operation id="o3084472732fd4a70a270f7305376aaff531" cid="OP002" name="ToString" type="String" type-id="Uml.String" visibility="public" abstract="false" virtual="false" static="false">
+                <source-codes />
+              </operation>
+              <operation id="o63320e12b6254fbfa0c2de18cbdd715e106" cid="OP011" name="UpdateTime" type="" type-id="" visibility="public" abstract="false" virtual="false" static="false">
+                <parameters>
+                  <parameter id="" name="TimeSpan time" type="" type-id="" />
+                </parameters>
+                <source-codes />
+              </operation>
+              <operation id="o31c18d52d29241019ee5c400767c688f743" cid="OP012" name="Professional" type="base(name, driverNumber)" type-id="base(name, driverNumber)" visibility="public" abstract="false" virtual="false" static="false">
+                <parameters>
+                  <parameter id="" name="String name" type="" type-id="" />
+                  <parameter id="" name="int driverNumber" type="" type-id="" />
+                  <parameter id="" name="int grade" type="" type-id="" />
+                </parameters>
+                <source-codes />
+              </operation>
+            </operations>
+            <template-parameters>
+              <source-codes />
+            </template-parameters>
+          </item>
+          <item id="di335150155342414395" cid="GNR004" type="generalization" name="" style-class="default" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creator="P6350c4dda17f47a0b6d2521c852b1d1e" creation-date="11/06/2014 18:09:07">
+            <stereotypes />
+            <associated-diagrams />
+            <owned-items />
+            <style class="default" />
+          </item>
+          <item id="di947553813205487331" cid="C006" type="class" name="SponsoredPro" style-class="default" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creator="P6350c4dda17f47a0b6d2521c852b1d1e" creation-date="11/06/2014 18:10:43">
+            <stereotypes />
+            <associated-diagrams />
+            <owned-items />
+            <style class="default" />
+            <attributes>
+              <attribute id="a0c1b74e9e33847328704afb459a5b558361" cid="AT005" name="companySponsor" type="String" type-id="Uml.String" visibility="private" abstract="false" virtual="false" static="false" />
+            </attributes>
+            <operations>
+              <operation id="o6b4f6ba3e93c46429b5d2430e1c002b01" cid="OP003" name="SponsoredPro" type="base(name, driverNumber, grade)" type-id="base(name, driverNumber, grade)" visibility="public" abstract="false" virtual="false" static="false">
+                <parameters>
+                  <parameter id="" name="String name" type="" type-id="" />
+                  <parameter id="" name="int driverNumber" type="" type-id="" />
+                  <parameter id="" name="int grade" type="" type-id="" />
+                  <parameter id="" name="String companySponsor" type="" type-id="" />
+                </parameters>
+                <source-codes />
+              </operation>
+              <operation id="oca1d9c37f92046779061561e2e784d5a201" cid="OP010" name="ToString" type="String" type-id="Uml.String" visibility="public" abstract="false" virtual="false" static="false">
+                <source-codes />
+              </operation>
+            </operations>
+            <template-parameters>
+              <source-codes />
+            </template-parameters>
+          </item>
+          <item id="di805437397643022455" cid="GNR005" type="generalization" name="" style-class="default" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creator="P6350c4dda17f47a0b6d2521c852b1d1e" creation-date="11/06/2014 18:10:43">
+            <stereotypes />
+            <associated-diagrams />
+            <owned-items />
+            <style class="default" />
+          </item>
+          <item id="di639794365382494278" cid="C007" type="class" name="Amateur" style-class="default" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creator="P6350c4dda17f47a0b6d2521c852b1d1e" creation-date="11/06/2014 18:12:41">
+            <stereotypes />
+            <associated-diagrams />
+            <owned-items />
+            <style class="default" />
+            <attributes>
+              <attribute id="a6bdc171d92004d688f3b7f3a1d599b5d559" cid="AT007" name="engineSize" type="Integer" type-id="Uml.Integer" visibility="private" abstract="false" virtual="false" static="false" />
+            </attributes>
+            <operations>
+              <operation id="o6513b05bc08842eebe6e2acfac2fea63436" cid="OP004" name="ToString" type="String" type-id="Uml.String" visibility="public" abstract="false" virtual="false" static="false">
+                <source-codes />
+              </operation>
+              <operation id="oe5b2948800db458e9da8d1b95c71ceb3194" cid="OP009" name="Amateur" type="base(name, driverNumber)" type-id="base(name, driverNumber)" visibility="public" abstract="false" virtual="false" static="false">
+                <parameters>
+                  <parameter id="" name="String name" type="" type-id="" />
+                  <parameter id="" name="int driverNumber" type="" type-id="" />
+                  <parameter id="" name="int engineSize" type="" type-id="" />
+                </parameters>
+                <source-codes />
+              </operation>
+            </operations>
+            <template-parameters>
+              <source-codes />
+            </template-parameters>
+          </item>
+          <item id="di852592377859701808" cid="GNR006" type="generalization" name="" style-class="default" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creator="P6350c4dda17f47a0b6d2521c852b1d1e" creation-date="11/06/2014 18:12:41">
+            <stereotypes />
+            <associated-diagrams />
+            <owned-items />
+            <style class="default" />
+          </item>
+          <item id="di446516937549149842" cid="C008" type="class" name="FinishGate" style-class="default" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creator="P6350c4dda17f47a0b6d2521c852b1d1e" creation-date="11/06/2014 18:13:25">
+            <stereotypes />
+            <associated-diagrams />
+            <owned-items />
+            <style class="default" />
+            <attributes>
+              <attribute id="a7784f1174c734cb3892b81b0b897421259" cid="AT008" name="numDriver" type="Integer" type-id="Uml.Integer" visibility="private" abstract="false" virtual="false" static="false" />
+            </attributes>
+            <operations>
+              <operation id="o26ad9ff30f844dccb7178c2a44ab4eab567" cid="OP005" name="UpdateTime" type="" type-id="" visibility="public" abstract="false" virtual="false" static="false">
+                <source-codes />
+              </operation>
+            </operations>
+            <template-parameters>
+              <source-codes />
+            </template-parameters>
+          </item>
+          <item id="di493928037718705413" cid="DEP002" type="dependency" name="" style-class="default" is-abstract="false" is-root="false" is-leaf="false" is-active="false" creator="P6350c4dda17f47a0b6d2521c852b1d1e" creation-date="11/06/2014 18:15:26">
+            <stereotypes />
+            <associated-diagrams />
+            <owned-items />
+            <style class="default" />
+          </item>
+        </abstract-items>
+        <layer name="Default" visible="true" enabled="true" locked="false">
+          <item id="di256051449958277367" iid="5447c03ef566461c9f5e51dae9a97cf4" creation-date="11/06/2014 18:07:04" order-index="0" type="entity">
+            <layout ax="270" ay="-112" awidth="171" aheight="160" x="270" y="-112" width="171" height="160" angle="0" />
+            <class />
+          </item>
+          <item id="di938220280809403962" iid="921f4dd3a3dc437c8eaffbf8bd3c9b26" creation-date="11/06/2014 18:09:07" order-index="1" type="entity">
+            <layout ax="41" ay="67" awidth="182" aheight="160" x="41" y="67" width="182" height="160" angle="0" />
+            <class />
+          </item>
+          <item id="di335150155342414395" iid="37fc7e12eb1f4a1f83c3c50f9a415604" creation-date="11/06/2014 18:09:07" order-index="2" type="relation">
+            <layout line-style="oblique" lock-start-point="false" lock-end-point="false" lock-to-fields="false" name-position="10,-10" auto-path="" x1="223" y1="74" x2="270" y2="37" start-border-pos="0.261376953125" end-border-pos="0.767619979381561">
+              <points>
+                <point x="223" y="74" />
+                <point x="270" y="37" />
+              </points>
+            </layout>
+            <relation from="di938220280809403962" from-iid="921f4dd3a3dc437c8eaffbf8bd3c9b26" to="di256051449958277367" to-iid="5447c03ef566461c9f5e51dae9a97cf4" />
+          </item>
+          <item id="di947553813205487331" iid="0f557c042362400a9a0d227430da63e5" creation-date="11/06/2014 18:10:43" order-index="3" type="entity">
+            <layout ax="41" ay="301" awidth="182" aheight="187" x="41" y="301" width="182" height="187" angle="0" />
+            <class />
+          </item>
+          <item id="di805437397643022455" iid="b2ae35398d6648db95524e5986517d06" creation-date="11/06/2014 18:10:43" order-index="4" type="relation">
+            <layout line-style="oblique" lock-start-point="false" lock-end-point="false" lock-to-fields="false" name-position="10,-10" auto-path="" x1="132" y1="301" x2="132" y2="227" start-border-pos="0.125" end-border-pos="0.625">
+              <points>
+                <point x="132" y="301" />
+                <point x="132" y="227" />
+              </points>
+            </layout>
+            <relation from="di947553813205487331" from-iid="0f557c042362400a9a0d227430da63e5" to="di938220280809403962" to-iid="921f4dd3a3dc437c8eaffbf8bd3c9b26" />
+          </item>
+          <item id="di639794365382494278" iid="fc53ad4241f741e8a9a4b6340b1f1b8d" creation-date="11/06/2014 18:12:41" order-index="5" type="entity">
+            <layout ax="349" ay="165" awidth="222" aheight="160" x="349" y="165" width="222" height="160" angle="0" />
+            <class />
+          </item>
+          <item id="di852592377859701808" iid="857fead7fd3c430c9bd5305793d0ddcb" creation-date="11/06/2014 18:12:41" order-index="6" type="relation">
+            <layout line-style="oblique" lock-start-point="false" lock-end-point="false" lock-to-fields="false" name-position="10,-10" auto-path="" x1="430" y1="165" x2="386" y2="48" start-border-pos="0.0911755604786916" end-border-pos="0.58035657559222">
+              <points>
+                <point x="430" y="165" />
+                <point x="386" y="48" />
+              </points>
+            </layout>
+            <relation from="di639794365382494278" from-iid="fc53ad4241f741e8a9a4b6340b1f1b8d" to="di256051449958277367" to-iid="5447c03ef566461c9f5e51dae9a97cf4" />
+          </item>
+          <item id="di446516937549149842" iid="e83dd2259dac4b538cdca36e45ace9dc" creation-date="11/06/2014 18:13:25" order-index="7" type="entity">
+            <layout ax="622" ay="34" awidth="142" aheight="145" x="622" y="34" width="142" height="145" angle="0" />
+            <class />
+          </item>
+          <item id="di493928037718705413" iid="e935b196843841f0813f67d1a1d697eb" creation-date="11/06/2014 18:15:26" order-index="8" type="relation">
+            <layout line-style="oblique" lock-start-point="true" lock-end-point="true" lock-to-fields="false" name-position="10,-10" auto-path="" x1="628" y1="34" x2="441" y2="17" start-border-pos="0.0102459016393443" end-border-pos="0.4515625">
+              <points>
+                <point x="628" y="34" />
+                <point x="441" y="17" />
+              </points>
+            </layout>
+            <relation from="di446516937549149842" from-iid="e83dd2259dac4b538cdca36e45ace9dc" to="di256051449958277367" to-iid="5447c03ef566461c9f5e51dae9a97cf4" />
+          </item>
+        </layer>
+      </diagram>
+    </model>
+  </models>
+  <documents />
+  <document-templates />
+</sim-project>
